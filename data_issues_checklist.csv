@@ -1,0 +1,38 @@
+Column,Issue,Solution
+Category,Missing values (24.80%),"Mean imputation for numerical, mode imputation for categorical"
+City,Missing values (24.76%),"Mean imputation for numerical, mode imputation for categorical"
+Country,Missing values (25.22%),"Mean imputation for numerical, mode imputation for categorical"
+Customer.ID,Missing values (25.13%),"Mean imputation for numerical, mode imputation for categorical"
+Customer.Name,Missing values (24.83%),"Mean imputation for numerical, mode imputation for categorical"
+Discount,Missing values (24.50%),"Mean imputation for numerical, mode imputation for categorical"
+Market,Missing values (25.19%),"Mean imputation for numerical, mode imputation for categorical"
+Order.Date,Missing values (75.33%),"Mean imputation for numerical, mode imputation for categorical"
+Order.ID,Missing values (24.92%),"Mean imputation for numerical, mode imputation for categorical"
+Order.Priority,Missing values (24.79%),"Mean imputation for numerical, mode imputation for categorical"
+Product.ID,Missing values (25.06%),"Mean imputation for numerical, mode imputation for categorical"
+Product.Name,Missing values (24.77%),"Mean imputation for numerical, mode imputation for categorical"
+Profit,Missing values (24.62%),"Mean imputation for numerical, mode imputation for categorical"
+Quantity,Missing values (24.74%),"Mean imputation for numerical, mode imputation for categorical"
+Region,Missing values (25.17%),"Mean imputation for numerical, mode imputation for categorical"
+Row.ID,Missing values (24.38%),"Mean imputation for numerical, mode imputation for categorical"
+Sales,Missing values (24.60%),"Mean imputation for numerical, mode imputation for categorical"
+Segment,Missing values (24.83%),"Mean imputation for numerical, mode imputation for categorical"
+Ship.Date,Missing values (50.81%),"Mean imputation for numerical, mode imputation for categorical"
+Ship.Mode,Missing values (24.90%),"Mean imputation for numerical, mode imputation for categorical"
+Shipping.Cost,Missing values (24.79%),"Mean imputation for numerical, mode imputation for categorical"
+State,Missing values (25.16%),"Mean imputation for numerical, mode imputation for categorical"
+Sub.Category,Missing values (24.75%),"Mean imputation for numerical, mode imputation for categorical"
+Year,Missing values (24.45%),"Mean imputation for numerical, mode imputation for categorical"
+Market2,Missing values (25.05%),"Mean imputation for numerical, mode imputation for categorical"
+weeknum,Missing values (24.50%),"Mean imputation for numerical, mode imputation for categorical"
+Discount,Contains 1917 outliers,Apply IQR method or z-score to remove or cap outliers
+Profit,Contains 17382 outliers,Apply IQR method or z-score to remove or cap outliers
+Quantity,Contains 3813 outliers,Apply IQR method or z-score to remove or cap outliers
+Row.ID,Contains 963 outliers,Apply IQR method or z-score to remove or cap outliers
+Sales,Contains 15685 outliers,Apply IQR method or z-score to remove or cap outliers
+Shipping.Cost,Contains 14074 outliers,Apply IQR method or z-score to remove or cap outliers
+Year,Contains 941 outliers,Apply IQR method or z-score to remove or cap outliers
+weeknum,Contains 974 outliers,Apply IQR method or z-score to remove or cap outliers
+Order.Date,46333 invalid date values,Parse dates correctly or fill with interpolation
+Ship.Date,31256 invalid date values,Parse dates correctly or fill with interpolation
+Multiple columns,2006 duplicate rows,Remove duplicate rows
